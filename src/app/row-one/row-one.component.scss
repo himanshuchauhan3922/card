@@ -1,61 +1,4 @@
 .main-container{
-  background-color: #eeeeee;
-  padding-top:10px;
-
-  .container{
-    background-color: #eeee;
-  }
-}
-.main-container{
-  background-color: #eee;
-  padding-top:10px;
-  .container{
-    background-color: #fff;
-  }
-}
-label{
-  font-weight: 600;
-  overflow: hidden;
-  text-overflow: ellipsis;
-
-
-}
-img{
-  width: 20px;
-}
-.box{
-  width: 40px;
-  height: 40px;
-  background-color: grey;
-  border-radius:50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.about{
-  // overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-
-
-}
-// .form-group{
-
-// }
-.heading{
-  font-weight: 600;
-  font-size: 16px;
-}
-
-.main-container{
-  background-color: #eeeeee;
-  padding-top:10px;
-
-  .container{
-    background-color: #eeee;
-  }
-}
-.main-container{
   background-color: #eee;
   padding-top:10px;
   .container{
@@ -87,8 +30,6 @@ img{
   text-overflow: ellipsis;
   white-space: nowrap;
 
-
-
 }
 // .form-group{
 //   min-width: 50px;
@@ -97,6 +38,69 @@ img{
   font-weight: 600;
   font-size: 16px;
 }
+
+.main-container{
+  background-color: #eeeeee;
+  padding-top:10px;
+
+  .container{
+    background-color: #eeee;
+  }
+}
+.main-container{
+  background-color: #eee;
+  padding-top:10px;
+  .container{
+    background-color: #fff;
+  }
+}
+label{
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+
+}
+img{
+  width: 20px;
+}
+.box{
+  width: 40px;
+  height: 40px;
+  background-color: grey;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about{
+  // overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+// .form-group{
+//   min-width: 10px;
+// }
+.heading{
+  font-weight: 600;
+  font-size: 16px;
+}
 .main-container .margin{
   margin: 0 auto;
+}
+
+.controlJumping{
+  height: 20cd\px;
+}
+@media screen and (max-width:990px){
+  .about{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 70px;
+  }
+  .controlJumping{
+    width: 80px;
+  }
 }

@@ -1,0 +1,14 @@
+
+
+  <div class="form-group col-md-2 mb-3 col-sm-2 col-xs-2">
+    <label class="title">{{item.infoTile}}</label>
+    <div class="about" *ngIf="!isEditable">{{item.infoValue}}</div>
+    <input *ngIf="isEditable" type="text" placeholder="..." class="controlJumping" />
+    <!-- <img src="../../assets/edit pen.svg" alt="" (click)="clickToShowDivOrInput()"> -->
+  </div>
+
+
+
+
+
+

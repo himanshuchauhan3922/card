@@ -1,0 +1,51 @@
+// .container{
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+
+// }
+
+input{
+  box-shadow: none!important;
+}
+input:active, input:focus{
+  border-color:none;
+}
+.heading{
+  font-weight: 600;
+  font-size: 16px;
+}
+.main-container{
+  background: #eeee;
+  .container{
+    background-color: #fff;
+  }
+}
+label{
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 100px;
+
+}
+img{
+  width: 20px;
+}
+.box{
+  width: 40px;
+  height: 40px;
+  background-color: grey;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+.form-group{
+  min-width: 10px;
+}

@@ -1,0 +1,40 @@
+.main-container{
+  background-color: #eee;
+  padding-top:10px;
+  .container{
+    background-color: #fff;
+  }
+}
+label{
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+
+}
+img{
+  width: 20px;
+}
+.box{
+  width: 40px;
+  height: 40px;
+  background-color: grey;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+.form-group{
+  min-width: 10px;
+}
+.heading{
+  font-weight: 600;
+  font-size: 16px;
+}
+
